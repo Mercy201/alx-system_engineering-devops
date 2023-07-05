@@ -4,3 +4,4 @@ cd ~ command that changes the working directory to the user’s home directory
 ls -l command to Display current directory contents in a long format
 ls -al command to Display current directory contents, including hidden files
 ls -lna command that Display current directory contents in long format, with user and group IDs displayed numerically and hidden files
+mkdir /tmp/my_first_directory command to creates a directory named my_first_directory in the /tmp/ directory
