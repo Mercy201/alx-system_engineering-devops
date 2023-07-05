@@ -3,3 +3,4 @@ ls command to prints the absolute path name of the current working directory
 cd ~ command that changes the working directory to the user’s home directory
 ls -l command to Display current directory contents in a long format
 ls -al command to Display current directory contents, including hidden files
+ls -lna command that Display current directory contents in long format, with user and group IDs displayed numerically and hidden files
