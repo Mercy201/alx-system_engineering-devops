@@ -9,3 +9,4 @@ mv /tmp/betty /tmp/my_first_directory command to Move the file betty from /tmp/ 
 rm /tmp/my_first_directory/betty command to Delete the file betty
 rm -r /tmp/my_first_directory command to Delete the directory my_first_directory that is in the /tmp directory
 cd - command to changes the working directory to the previous one
+ls -al . .. /boot command to  lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format
