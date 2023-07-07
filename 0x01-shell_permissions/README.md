@@ -13,7 +13,7 @@ Shell permismission
 "chmod -R +X" Command that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
 "mkdir -m 751 my_dir" Command that creates a directory called my_dir with permissions 751 in the working directory
 "chgrp school hello" Command  that changes the group owner to school for the file hello
-"chown vincent:staff" Command  that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+"chown -hR vincent:staff ." Command  that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
 "chown -h vincent:staff _hello" Command that changes the owner and the group owner of _hello to vincent and staff respectively.
 "chown --from=guillaume betty hello" Command  that changes the owner of the file hello to betty only if it is owned by the user guillaume
 "telnet towel.blinkenlights.nl" command that will play the StarWars IV episode in the terminal
