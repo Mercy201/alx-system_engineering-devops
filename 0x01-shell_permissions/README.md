@@ -7,3 +7,4 @@ Shell permismission
 "chmod u+x hello" command that adds execute permission to the owner of the file hello
 "chmod ug+x,o+r hello" Command that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
 "chmod ugo+x hello" Command that adds execution permission to the owner, the group owner and the other users, to the file hello
+"chmod 007 hello" Command that sets the permission to the file hello as follow:  Owner: no permission at al1,Group: no permission at all, and Other users: all the permissions
