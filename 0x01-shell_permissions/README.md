@@ -9,3 +9,4 @@ Shell permismission
 "chmod ugo+x hello" Command that adds execution permission to the owner, the group owner and the other users, to the file hello
 "chmod 007 hello" Command that sets the permission to the file hello as follow:  Owner: no permission at al1,Group: no permission at all, and Other users: all the permissions
 "chmod 753" Command that sets the mode of the file hello to this: -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+"chmod --reference=olleh hello" command that sets the mode of the file hello the same as olleh’s mode
