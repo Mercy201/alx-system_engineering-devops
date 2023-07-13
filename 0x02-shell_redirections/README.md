@@ -4,3 +4,4 @@ echo "\"(Ôo)'" command  that displays a confused smiley "(Ôo)'
 cat /etc/passwd /etc/hosts command that Display the content of /etc/passwd and /etc/hosts
 tail -n 10 /etc/passwd command that Display the last 10 lines of /etc/passwd
 head -n 10 /etc/passwd command that Display the first 10 lines of /etc/passwd
+head -n 3 iactan | tail -n 1 command that displays the third line of the file iacta
